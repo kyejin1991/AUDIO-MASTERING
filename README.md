@@ -1,6 +1,6 @@
 # audio-mastering Community Edition
 
-![Hero](assets/images/hero.png)
+Coming soon
 
 `audio-mastering` is an open-source audio analysis and manual mastering toolkit.
 
@@ -28,8 +28,8 @@ This repository does not include the proprietary Pro engine:
 ## Quick Start
 
 ```bash
-git clone https://github.com/YOUR_NAME/audio-mastering.git
-cd audio-mastering
+git clone https://github.com/kyejin1991/AUDIO-MASTERING.git
+cd AUDIO-MASTERING
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
@@ -38,25 +38,11 @@ streamlit run app.py
 
 ## Screenshots
 
-### Audio Upload
-
-![Upload Screen](assets/images/upload_screen.png)
-
-### Audio Analysis
-
-![Analysis Screen](assets/images/analysis_screen.png)
-
-### Manual Mastering Rack
-
-![Module Rack](assets/images/module_rack.png)
-
-### Render Result
-
-![Render Result](assets/images/render_result.png)
+Coming soon
 
 ## Quick Start Video
 
-https://github.com/user-attachments/assets/...
+Coming soon
 
 ## Third-Party Components
 
@@ -76,3 +62,8 @@ See:
 ## License
 
 See `LICENSE`.
+
+## Author
+
+Developed by [kyejin1991](https://github.com/kyejin1991)  
+© 2026 Arcapps
