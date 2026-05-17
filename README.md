@@ -1,8 +1,8 @@
-# AI Mastering Lab Community Edition
+# audio-mastering Community Edition
 
 ![Hero](assets/images/hero.png)
 
-Community edition of AI Mastering Lab for audio analysis, DSP, and manual mastering.
+`audio-mastering` is an open-source audio analysis and manual mastering toolkit.
 
 ## Features
 
@@ -14,17 +14,13 @@ Community edition of AI Mastering Lab for audio analysis, DSP, and manual master
 - Manual mastering workflow
 - Optional stem separation interface
 
-## What This Is
-
-AI Mastering Lab Community Edition is a manual audio mastering toolkit.
-
 ## What This Is Not
 
-This repository does not include:
+This repository does not include the proprietary Pro engine:
 
 - AI Master Assistant
 - Automatic mastering decision engine
-- Genre-specific Pro profiles
+- Genre-specific profiles
 - Pro rendering orchestration
 - Commercial presets
 - Pro QC workflow
@@ -32,8 +28,8 @@ This repository does not include:
 ## Quick Start
 
 ```bash
-git clone https://github.com/YOUR_NAME/ai-mastering-lab-community.git
-cd ai-mastering-lab-community
+git clone https://github.com/YOUR_NAME/audio-mastering.git
+cd audio-mastering
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
