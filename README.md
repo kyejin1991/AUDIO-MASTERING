@@ -92,8 +92,8 @@ This project uses third-party open-source components including Demucs and pyloud
 
 See:
 
-- `THIRD_PARTY_LICENSES.md`
-- `NOTICE`
+- [THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md)
+- [NOTICE](NOTICE)
 
 ## Community / Pro Boundary
 
@@ -106,9 +106,9 @@ This Community Edition does not include the proprietary AI Master Assistant, aut
 
 ## License
 
-See `LICENSE`.
+See [LICENSE](LICENSE).
 
 ## Author
 
-Developed by kyejin1991  
+Developed by [kyejin1991](https://github.com/kyejin1991)  
 © 2026 Arcapps
