@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Audio outputs
+outputs/
+renders/
+exports/
+artifacts/
+temp/
+tmp/
+
+# Large audio files
+*.wav
+*.mp3
+*.flac
+*.aiff
+*.aif
+*.m4a
+*.stem.mp4
+
+# Keep example placeholders
+!examples/**/*.md
+!examples/**/*.json
+
+# Proprietary / Pro exclusions
+src/pro/
+pro/
+*master_assistant*
+*module_render_engine*
+*genre_profiles*
+*mastering_targets*
+*commercial_presets*
