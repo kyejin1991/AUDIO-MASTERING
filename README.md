@@ -1,11 +1,13 @@
-# audio-mastering Community Edition
+# audio-mastering
 
 ![Release](https://img.shields.io/github/v/release/kyejin1991/AUDIO-MASTERING?include_prereleases)
 ![License](https://img.shields.io/github/license/kyejin1991/AUDIO-MASTERING)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![Status](https://img.shields.io/badge/status-community%20release-green)
 
-`audio-mastering` is an open-source audio analysis and manual mastering toolkit.
+audio-mastering is an open-source audio analysis and manual mastering toolkit.
+
+It provides loudness analysis, spectrum analysis, dynamics analysis, stereo analysis, basic DSP modules, and manual mastering workflows.
 
 ## Quick Start Guide
 
@@ -41,6 +43,12 @@ python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
 streamlit run app.py
+```
+
+For macOS / Linux:
+
+```bash
+source .venv/bin/activate
 ```
 
 ## Screenshots
@@ -83,6 +91,8 @@ See:
 |---|---|---|
 | Community | Open Source | Analysis, basic DSP, manual mastering |
 | Pro | Proprietary | AI decision engine, automatic mastering, genre profiles |
+
+This Community Edition does not include the proprietary AI Master Assistant, automatic mastering decision engine, genre-specific Pro profiles, Pro rendering orchestration, commercial presets, or Pro QC workflow.
 
 ## License
 
