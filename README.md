@@ -38,11 +38,11 @@ streamlit run app.py
 
 ## Screenshots
 
-Coming soon
+Screenshots will be added soon.
 
 ## Quick Start Video
 
-Coming soon
+Coming soon.
 
 ## Third-Party Components
 
