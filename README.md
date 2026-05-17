@@ -13,6 +13,8 @@ It can create projects, inspect audio files, and run loudness, spectrum, dynamic
 
 For a more detailed guide, see [docs/QUICK_START.md](docs/QUICK_START.md).
 
+For a Korean release summary, see [docs/ANNOUNCEMENT.md](docs/ANNOUNCEMENT.md).
+
 ## Features
 
 - Project creation from local audio files
@@ -127,6 +129,14 @@ See:
 The Community Edition intentionally includes only the open-source audio analysis and manual workflow layer.
 
 The AI mastering decision engine, Pro rendering orchestration, genre-specific profiles, and commercial presets are part of the separate Pro engine and are not included in this public repository.
+
+## Support
+
+If you find this project useful, please consider giving it a ⭐ on GitHub.
+
+프로젝트가 도움이 되었다면 GitHub Star를 눌러주세요.
+
+더 많은 개발자와 오디오 크리에이터에게 프로젝트가 닿는 데 큰 도움이 됩니다.
 
 ## License
 
