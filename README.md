@@ -5,9 +5,9 @@
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![Status](https://img.shields.io/badge/status-community%20release-green)
 
-audio-mastering is an open-source audio analysis and manual mastering toolkit.
+audio-mastering Community Edition is the open-source audio analysis and manual workflow layer of AI Mastering Lab.
 
-It provides loudness analysis, spectrum analysis, dynamics analysis, stereo analysis, basic DSP modules, and manual mastering workflows.
+It can create projects, inspect audio files, and run loudness, spectrum, dynamics, and stereo analysis.
 
 ## Quick Start Guide
 
@@ -15,22 +15,44 @@ For a more detailed guide, see [docs/QUICK_START.md](docs/QUICK_START.md).
 
 ## Features
 
+- Project creation from local audio files
 - Loudness analysis
 - Spectrum analysis
 - Dynamics analysis
 - Stereo analysis
-- Basic DSP modules
-- Manual mastering workflow
-- Optional stem separation interface
+- Streamlit-based Community UI
+- Basic DSP module structure
 
-## What This Is Not
+## Community Scope
 
-This repository does not include the proprietary Pro engine:
+audio-mastering Community Edition includes the open-source analysis and manual workflow layer of AI Mastering Lab.
+
+It can create projects, inspect audio files, and run loudness, spectrum, dynamics, and stereo analysis.
+
+The proprietary Pro engine is not included in this repository. This includes the AI Master Assistant, AI mastering decision logic, Pro rendering orchestration, genre-specific profiles, and commercial presets.
+
+Community is not an unfinished version. It is the open-source layer.
+
+Pro is a separate proprietary product layer.
+
+## What You Can Do
+
+- Load audio files
+- Create analysis projects
+- Inspect loudness, spectrum, dynamics, and stereo information
+- Use the Community UI as a base for manual workflow foundations
+- Explore the basic DSP module structure
+
+## What Is Not Included
+
+This public repository does not include the Pro mastering engine.
+
+The following components are intentionally excluded:
 
 - AI Master Assistant
-- Automatic mastering decision engine
-- Genre-specific profiles
+- AI mastering decision engine
 - Pro rendering orchestration
+- Genre-specific profiles
 - Commercial presets
 - Pro QC workflow
 
@@ -99,10 +121,12 @@ See:
 
 | Edition | Status | Included |
 |---|---|---|
-| Community | Open Source | Analysis, basic DSP, manual mastering |
-| Pro | Proprietary | AI decision engine, automatic mastering, genre profiles |
+| Community | Open Source | Analysis, manual workflow layer, basic DSP structure |
+| Pro | Proprietary | AI mastering engine, rendering orchestration, genre profiles |
 
-This Community Edition does not include the proprietary AI Master Assistant, automatic mastering decision engine, genre-specific Pro profiles, Pro rendering orchestration, commercial presets, or Pro QC workflow.
+The Community Edition intentionally includes only the open-source audio analysis and manual workflow layer.
+
+The AI mastering decision engine, Pro rendering orchestration, genre-specific profiles, and commercial presets are part of the separate Pro engine and are not included in this public repository.
 
 ## License
 
