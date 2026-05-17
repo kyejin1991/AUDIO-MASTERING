@@ -36,6 +36,8 @@ This repository does not include the proprietary Pro engine:
 
 ## Quick Start
 
+For Windows:
+
 ```bash
 git clone https://github.com/kyejin1991/AUDIO-MASTERING.git
 cd AUDIO-MASTERING
@@ -48,7 +50,12 @@ streamlit run app.py
 For macOS / Linux:
 
 ```bash
+git clone https://github.com/kyejin1991/AUDIO-MASTERING.git
+cd AUDIO-MASTERING
+python3 -m venv .venv
 source .venv/bin/activate
+pip install -r requirements.txt
+streamlit run app.py
 ```
 
 ## Screenshots
@@ -75,13 +82,16 @@ source .venv/bin/activate
 
 ## Quick Start Video
 
-[View the 15-second quick start video](assets/video/quick_start_15s.mp4)
+The 15-second quick start video is available in the GitHub Release assets:
+
+[View release assets](https://github.com/kyejin1991/AUDIO-MASTERING/releases/tag/v0.1.0-community)
 
 ## Third-Party Components
 
 This project uses third-party open-source components including Demucs and pyloudnorm.
 
 See:
+
 - `THIRD_PARTY_LICENSES.md`
 - `NOTICE`
 
@@ -100,5 +110,5 @@ See `LICENSE`.
 
 ## Author
 
-Developed by [kyejin1991](https://github.com/kyejin1991)  
+Developed by kyejin1991  
 © 2026 Arcapps
