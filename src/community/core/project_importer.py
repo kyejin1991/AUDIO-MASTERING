@@ -12,7 +12,7 @@ from .project_schema import AudioImportProject, ProjectPaths, now_string
 
 def slugify(value: str) -> str:
     value = value.strip().lower()
-    value = re.sub(r"[^a-z0-9媛-??_-]+", "_", value)
+    value = re.sub(r"[^0-9a-z가-힣_-]+", "_", value)
     value = re.sub(r"_+", "_", value).strip("_")
     return value or "audio_project"
 
