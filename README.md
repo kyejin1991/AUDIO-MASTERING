@@ -1,8 +1,15 @@
 # audio-mastering Community Edition
 
-Coming soon
+![Release](https://img.shields.io/github/v/release/kyejin1991/AUDIO-MASTERING?include_prereleases)
+![License](https://img.shields.io/github/license/kyejin1991/AUDIO-MASTERING)
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+![Status](https://img.shields.io/badge/status-community%20release-green)
 
 `audio-mastering` is an open-source audio analysis and manual mastering toolkit.
+
+## Quick Start Guide
+
+For a more detailed guide, see [docs/QUICK_START.md](docs/QUICK_START.md).
 
 ## Features
 
@@ -38,11 +45,29 @@ streamlit run app.py
 
 ## Screenshots
 
-Screenshots will be added soon.
+### Overview
+
+![audio-mastering overview](assets/images/hero.png)
+
+### Audio Upload
+
+![Upload screen](assets/images/upload_screen.png)
+
+### Audio Analysis
+
+![Analysis screen](assets/images/analysis_screen.png)
+
+### Manual Mastering Rack
+
+![Module rack](assets/images/module_rack.png)
+
+### Render Result
+
+![Render result](assets/images/render_result.png)
 
 ## Quick Start Video
 
-Coming soon.
+[View the 15-second quick start video](assets/video/quick_start_15s.mp4)
 
 ## Third-Party Components
 
